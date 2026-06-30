@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Node / Angular (anticipé pour la suite du projet)
+node_modules/
+dist/
+.angular/
+
+# OS
+.DS_Store
+
+# Docker (volumes locaux si jamais montés en bind plutôt qu'en volume nommé)
+db/data/
