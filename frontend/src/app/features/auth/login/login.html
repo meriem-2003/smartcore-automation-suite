@@ -1,0 +1,69 @@
+<div class="min-h-screen bg-gray-950 flex flex-col items-center justify-center px-4">
+
+  <!-- Titre principal -->
+  <div class="text-center mb-8">
+    <h1 class="text-white text-2xl font-bold tracking-widest"> SmartCORE AUTOMATION </h1>
+    <p class="text-gray-400 text-sm mt-1 tracking-widest">SUITE v1.0</p>
+  </div>
+
+  <!-- Carte de connexion -->
+  <div class="bg-gray-900 border border-gray-700 rounded-lg w-full max-w-md p-8">
+    <h2 class="text-white text-center text-lg font-semibold mb-6 pb-3 border-b border-gray-700">
+      Connexion à la Plateforme
+    </h2>
+
+    <form class="space-y-5">
+
+      <!-- Identifiant -->
+      <div>
+        <label class="block text-gray-300 text-sm mb-1">
+          Identifiant ou Email <span class="text-red-400">*</span>
+        </label>
+        <input
+          type="text"
+          class="w-full bg-gray-800 border border-gray-600 text-white rounded px-3 py-2 text-sm focus:outline-none focus:border-blue-500"
+          placeholder=""
+        />
+      </div>
+
+      <!-- Mot de passe -->
+      <div>
+        <label class="block text-gray-300 text-sm mb-1">
+          Mot de passe <span class="text-red-400">*</span>
+        </label>
+        <input
+          type="password"
+          class="w-full bg-gray-800 border border-gray-600 text-white rounded px-3 py-2 text-sm focus:outline-none focus:border-blue-500"
+          placeholder=""
+        />
+      </div>
+
+      <!-- Environnement cible -->
+      <div>
+        <label class="block text-gray-300 text-sm mb-1">
+          Environnement Cible
+        </label>
+        <select class="w-full bg-gray-800 border border-gray-600 text-white rounded px-3 py-2 text-sm focus:outline-none focus:border-blue-500">
+          <option>STAGING-FIN-04</option>
+          <option>STAGING-FIN-03</option>
+          <option>PROD</option>
+        </select>
+      </div>
+
+      <!-- Bouton -->
+      <button
+        type="submit"
+        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded text-sm transition-colors duration-200 flex items-center justify-center gap-2 mt-2"
+      >
+         Se connecter
+      </button>
+
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <p class="text-gray-600 text-xs mt-6 text-center">
+    © 2026 SmartCORE Automation - Système d'authentification sécurisé délégué JWT
+  </p>
+
+</div>
